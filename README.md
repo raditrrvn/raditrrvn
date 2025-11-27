@@ -10,12 +10,6 @@
 
 ---
 
-<p align="center">
-  <img src="assets/pixel-walk.svg" width="120" />
-</p>
-
----
-
 ## 🛠️ Tech Stack
 <p align="left">
   <img src="https://skillicons.dev/icons?i=java,js,html,css,react,php,mysql,python,git,github,vscode,androidstudio" />
