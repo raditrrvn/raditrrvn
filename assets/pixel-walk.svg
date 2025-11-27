@@ -1,0 +1,41 @@
+<!-- save as assets/pixel-walk.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 32 32" shape-rendering="crispEdges">
+  <!-- background transparent -->
+  <!-- body -->
+  <g id="character" transform="translate(8,8)">
+    <rect x="4" y="0" width="4" height="4" fill="#2b2b2b"/>
+    <rect x="3" y="4" width="6" height="2" fill="#2b2b2b"/>
+    <rect x="2" y="6" width="8" height="3" fill="#3b82f6"/>
+    <rect x="3" y="9" width="2" height="3" fill="#111827"/>
+    <rect x="6" y="9" width="2" height="3" fill="#111827"/>
+    <!-- head -->
+    <rect x="4" y="-3" width="4" height="3" fill="#fbcfe8"/>
+    <rect x="5" y="-2" width="1" height="1" fill="#111827"/>
+    <rect x="7" y="-2" width="1" height="1" fill="#111827"/>
+    <!-- left leg -->
+    <rect id="legL" x="3" y="12" width="2" height="3" fill="#111827"/>
+    <!-- right leg -->
+    <rect id="legR" x="6" y="12" width="2" height="3" fill="#111827"/>
+    <!-- arm -->
+    <rect id="armL" x="1" y="6" width="2" height="1" fill="#3b82f6"/>
+    <rect id="armR" x="8" y="6" width="2" height="1" fill="#3b82f6"/>
+  </g>
+
+  <!-- horizontal bobbing to simulate walking -->
+  <g>
+    <animateTransform href="#character" attributeName="transform" type="translate"
+      values="8,8; 9,7; 8,8; 7,9; 8,8" dur="1.2s" repeatCount="indefinite" />
+  </g>
+
+  <!-- leg swing -->
+  <animateTransform href="#legL" attributeName="transform" type="translate"
+    values="0,0; 0,1; 0,0; 0,-1; 0,0" dur="1.2s" repeatCount="indefinite" />
+  <animateTransform href="#legR" attributeName="transform" type="translate"
+    values="0,0; 0,-1; 0,0; 0,1; 0,0" dur="1.2s" repeatCount="indefinite" />
+
+  <!-- arm swing -->
+  <animateTransform href="#armL" attributeName="transform" type="translate"
+    values="0,0; 0,1; 0,0; 0,-1; 0,0" dur="1.2s" repeatCount="indefinite" />
+  <animateTransform href="#armR" attributeName="transform" type="translate"
+    values="0,0; 0,-1; 0,0; 0,1; 0,0" dur="1.2s" repeatCount="indefinite" />
+</svg>

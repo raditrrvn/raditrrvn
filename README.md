@@ -1,5 +1,8 @@
 <h1 align="center">Hayy 👋 What's up?</h1>
 
+<p align="center">
+  <img src="assets/pixel-walk.svg" width="120" />
+</p>
 
 <h3 align="center">My name is Raditra Ikhwaul Arifin, and I am a curious learner who enjoys exploring new technologies and continuously improving my skills.</h3>
 
