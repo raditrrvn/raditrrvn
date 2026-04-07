@@ -15,6 +15,8 @@
   <img src="https://skillicons.dev/icons?i=java,js,html,css,react,php,mysql,python,git,github,vscode,androidstudio" />
 </p>
 
+Portofolio: https://raditrrvn.vercel.app/
+
 ---
 
 ## 🔗 Connect with me
